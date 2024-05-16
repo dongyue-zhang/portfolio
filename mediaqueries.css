@@ -45,7 +45,9 @@
 
     #profile,
     .section-container {
-        display: block;
+        /* display: block; */
+        flex-direction: column;
+
     }
 
     #experience {
@@ -94,6 +96,11 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+    }
+
+    .circled img,
+    .cubed img {
+        width: 275px;
     }
 
     article {
