@@ -222,6 +222,7 @@ section {
     justify-content: center;
     gap: 1rem;
     align-content: center;
+    margin: 10px 0;
 }
 
 .btn {
